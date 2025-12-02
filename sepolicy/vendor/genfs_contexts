@@ -153,5 +153,5 @@ genfscon proc /sys/vm/dirty_ratio                   u:object_r:proc_dirty:s0
 genfscon proc /sys/kernel/sched_migration_cost_ns   u:object_r:proc_sched:s0
 
 # GPU
-genfscon sysfs /sys/class/kgsl/kgsl-3d0/gpu_available_frequencies                   u:object_r:sysfs_gpu:s0
+genfscon sysfs /sys/class/kgsl/kgsl-3d0/freq_table_mhz                   u:object_r:sysfs_gpu:s0
 genfscon sysfs /sys/class/kgsl/kgsl-3d0/min_clock_mhz                   u:object_r:sysfs_gpu:s0
